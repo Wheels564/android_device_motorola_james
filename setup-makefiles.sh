@@ -12,6 +12,4 @@ export DEVICE=james
 export DEVICE_COMMON=hannah-common
 export VENDOR=motorola
 
-export DEVICE_BRINGUP_YEAR=2019
-
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
