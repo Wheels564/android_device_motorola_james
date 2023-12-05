@@ -13,5 +13,5 @@ DEVICE_PATH := device/motorola/james
 TARGET_OTA_ASSERT_DEVICE := james
 
 # Kernel
-TARGET_KERNEL_CONFIG := james_int_defconfig
-TARGET_KERNEL_RECOVERY_CONFIG := james_recovery_defconfig
+TARGET_KERNEL_CONFIG := hannah_int_defconfig
+TARGET_KERNEL_RECOVERY_CONFIG := hannah_recovery_defconfig
