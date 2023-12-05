@@ -12,7 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # GPU
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opengles.version=196608
+    ro.opengles.version=196610
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
