@@ -24,6 +24,9 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.model \
     ro.product.name
 
+# Inherit some common PARTNER_GMS stuff.
+$(call inherit-product, vendor/partner_gms/products/gms.mk)
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="james_a-user 8.0.0 OCPS27.91-157-20 22 release-keys" \
     PRODUCT_NAME="james"
