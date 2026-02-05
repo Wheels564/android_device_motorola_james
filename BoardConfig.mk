@@ -10,11 +10,15 @@
 DEVICE_PATH := device/motorola/james
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := james
+TARGET_OTA_ASSERT_DEVICE := james,rjames
 
 # GMS
 WITH_GMS := true
 
+# Partitions
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16879616
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 11490278400
+
 # Kernel
-TARGET_KERNEL_CONFIG := hannah_int_defconfig
-TARGET_KERNEL_RECOVERY_CONFIG := hannah_recovery_defconfig
+TARGET_KERNEL_CONFIG := james_defconfig
+# TARGET_KERNEL_RECOVERY_CONFIG := hannah_recovery_defconfig
