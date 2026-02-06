@@ -4,14 +4,3 @@ soong_namespace {
 subdirs = [
     "*"
 ]
-
-cc_defaults {
-    name: "health_charging_control_defaults",
-    srcs: ["ChargingControl.cpp"],
-    shared_libs: [
-        "libbase",
-        "libbinder_ndk",
-        "vendor.lineage.health-V1-ndk_platform",
-    ],
-    cflags: ["-Wall", "-Werror"],
-}   
