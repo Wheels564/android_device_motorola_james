@@ -9,6 +9,8 @@
 
 DEVICE_PATH := device/motorola/james
 
+ALLOW_MISSING_DEPENDENCIES=true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := james,rjames
 
