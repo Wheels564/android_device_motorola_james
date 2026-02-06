@@ -29,3 +29,5 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/msm8996/display \
     hardware/qcom-caf/msm8996/audio \
     hardware/qcom-caf/msm8996/media
+
+PRODUCT_PACKAGES := $(filter-out vendor.lineage.health-service.default,$(PRODUCT_PACKAGES)) 
