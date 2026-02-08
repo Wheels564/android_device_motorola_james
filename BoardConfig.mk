@@ -11,8 +11,6 @@ DEVICE_PATH := device/motorola/james
 
 ALLOW_MISSING_DEPENDENCIES=true
 
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := james,rjames
 
